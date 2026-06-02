@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Information Form </title>
+</head>
+<body>
+  <form>
+    <table border="1" width="100%" cellpadding="10" cellspacing="4">
+      <tr bgcolor="#ddccff">
+        <th><font size="10">Name</font></th>
+        <th><font size="10">Value</font></th>
+      </tr>
+      <tr>
+        <td><font size="10">Name</font></td>
+        <td>
+          <input type="text" name="name" size="90">
+        </td>
+      </tr>
+      <tr>
+        <td><font size="10">Sex</font></td>
+        <td>
+          <font size="10">
+            <input type="radio" name="sex" value="male"> Male<br>
+            <input type="radio" name="sex" value="female" checked> Female
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td><font size="10">Eye color</font></td>
+        <td>
+          <font size="20">
+            <select name="eye_color">
+              <option selected>green</option>
+              <option>blue</option>
+              <option>brown</option>
+              <option>hazel</option>
+              <option>gray</option>
+            </select>
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td><font size="7">Check all that apply</font></td>
+        <td>
+          <font size="7">
+            <input type="checkbox" name="over_6_feet"> Over 6 feet tall<br>
+            <input type="checkbox" name="over_200_pounds"> Over 200 pounds
+          </font>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <font size="7">Describe your athletic ability:</font><br>
+          <textarea name="athletic_ability" rows="9" cols="160"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <button type="submit"><font size="6">Enter my information</font></button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
